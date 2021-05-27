@@ -760,4 +760,5 @@ img {
 .modal-icon:focus {
   transform: scale(1.1);
   fill: var(--accent-color);
+  cursor: pointer;
 }
