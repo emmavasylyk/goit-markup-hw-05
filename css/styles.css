@@ -717,8 +717,9 @@ img {
 
   width: 100%;
   height: 100%;
-
   background-color: var(--background-backdrop);
+  transition: opacity var(--anim-duration) var(--anim-timing-function),
+    visibility var(--anim-duration) var(--anim-timing-function);
 }
 
 .backdrop.is-hidden {
@@ -752,7 +753,7 @@ img {
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: var(--primary-white-color);
+  background-color: transparent;
   transition: transform var(--anim-duration) var(--anim-timing-function),
     fill var(--anim-duration) var(--anim-timing-function);
 }
